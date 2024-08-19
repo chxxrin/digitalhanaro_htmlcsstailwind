@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Login</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+    </style>
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="flex flex-col">
+      <div class="bg-white rounded-lg shadow-lg overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div class="  inline-block min-w-full py-2 sm:px-6 lg:px-8">
+          <div class="overflow-hidden">
+            <table class="bg-white min-w-full text-left text-sm font-light text-surface dark:text-white">
+              <thead class="border-b border-neutral-200 font-medium dark:border-white/10">
+                <tr>
+                  <th scope="col" class="px-6 py-4 bg-green-200">용도</th>
+                  <th scope="col" class="px-6 py-4 bg-green-200">중량</th>
+                  <th scope="col" class="px-6 py-4 bg-green-200">개수</th>
+                  <th scope="col" class="px-6 py-4 bg-green-200">가격</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-neutral-200 dark:border-white/10">
+                  <td class="whitespace-nowrap px-6 py-4 font-medium" rowspan="2">선물용</td>
+                  <td class="whitespace-nowrap px-6 py-4">3KG</td>
+                  <td class="whitespace-nowrap px-6 py-4">11~16과</td>
+                  <td class="whitespace-nowrap px-6 py-4">35,000원</td>
+                </tr>
+                <tr class="border-b border-neutral-200 dark:border-white/10">
+                  <td class="whitespace-nowrap px-6 py-4">5KG</td>
+                  <td class="whitespace-nowrap px-6 py-4">18~26과</td>
+                  <td class="whitespace-nowrap px-6 py-4">52,000원</td>
+                </tr>
+
+                <tr class="border-b border-neutral-200 dark:border-white/10">
+                  <td class="whitespace-nowrap px-6 py-4 font-medium" rowspan="2">가정용</td>
+                  <td class="whitespace-nowrap px-6 py-4">3KG</td>
+                  <td class="whitespace-nowrap px-6 py-4">11~16과</td>
+                  <td class="whitespace-nowrap px-6 py-4">35,000원</td>
+                </tr>
+                <tr class="border-b border-neutral-200 dark:border-white/10">
+                  <td class="whitespace-nowrap px-6 py-4">5KG</td>
+                  <td class="whitespace-nowrap px-6 py-4">18~26과</td>
+                  <td class="whitespace-nowrap px-6 py-4">52,000원</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="mt-4 text-center text-sm text-gray-600">선물용과 가정용 상품구성</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
